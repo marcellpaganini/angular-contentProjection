@@ -1,0 +1,6 @@
+<table>
+    <ng-content></ng-content>
+    <tr *ngFor="let item of list">
+        <td *ngFor="let property of item | keyvalue">{{property.value}}</td>
+    </tr>
+</table>
