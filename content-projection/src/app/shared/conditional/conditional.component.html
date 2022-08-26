@@ -1,0 +1,5 @@
+<button (click)="expanded = !expanded">Toggle Template Visibility</button>
+
+<div *ngIf="expanded">
+    <ng-container [ngTemplateOutlet]="content.templateRef"></ng-container>
+</div>

@@ -5,7 +5,9 @@
         <th>Nationality</th>
     </tr>
 </app-base-table>
+
 <br />
+
 <app-base-card [item]="people[0]">
     <section title align="center">
         {{ people[0].name }}
@@ -17,3 +19,11 @@
         {{ people[0].nationality }}
     </section>
 </app-base-card>
+
+<br />
+
+<app-conditional>
+    <ng-template appConditionalComponent>
+        It depends on what you do with it.
+    </ng-template>    
+</app-conditional>

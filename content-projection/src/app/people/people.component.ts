@@ -14,6 +14,7 @@ export class PeopleComponent implements OnInit {
     {id: 11, name: "Pradeep", nationality: "Indian"},
     {id: 31, name: "Liu", nationality: "Japanese"},
   ]
+  
   constructor() { }
 
   ngOnInit(): void {
