@@ -16,5 +16,4 @@ export class ConditionalComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
